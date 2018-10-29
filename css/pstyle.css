@@ -6,7 +6,7 @@
 
 html{
     
-    background-image: url("/bckgrnd-img/pic2.jpg");
+    background-image: url("css/bckgrnd-img/pic2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
