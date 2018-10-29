@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    
+    background-image: url(Pics/pic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    font-family: sans-serif,serif
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ /*********************************Navigation*******************************/
+
+.nav-container{
+    padding:1em;
+    display:static;
+    height: inherit;
+    margin:0 5px 0 5px;
+   
+ 
+   
+    
+}.nav-container .nav-menu{
+ margin-left: 50%;
+    margin-right:auto;
+  
+ 
+   
+    
+}
+
+.site-navigation{
+    display: inline-block;
+    position: sticky;
+    width:100%;
+   height: auto;
+    border:4px solid #2b2b2b;
+    background:#1d1e25;
+    z-index:1;
+    box-shadow:0 5px 30px darkgrey;
+
+    
+}
+
+.nav-logo a{ 
+    position:absolute;
+     text-decoration: none;
+     color:white;
+    font-size: 1.4rem;
+   
+
+    
+    
+
+}
+
+.underline a{
+    display:inline;
+    background-size:0 6px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    background-image: linear-gradient(to right, #1e52ca ,#393d );
+     transition:all 250ms linear;
+  
+}
+
+.underline a:hover{
+background-size:  100% 6px;
+}
+
+
+    
+.nav-menu a{
+    
+
+    padding:.5rem 2rem;
+   text-decoration: none;
+    color:skyblue;
+    font-size: 1.2rem;
+    transition:all 1s ease-out;
+    
+}
+.nav-menu a:hover{
+  color:white;
+    text-shadow: 0 6px 15px lightblue;
+    
+
+}
+/***************************************site-hero***********************/
+
+.site-hero{
+    background: linear-gradient(to bottom right,#1e52ca,#393d);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-height: 90vh ;
+    
+
+}.site-hero button{
+    border:none;
+       background:deepskyblue;
+    display: inline-block;
+    padding:25px;
+    border:1px solid white;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.4rem;
+    font-weight: 200;
+   
+
+    }.site-hero button:hover{
+background:limegreen;
+         
+ 
+
+}.site-hero p {
+    font-size:1.5rem;
+    margin:2.5rem 0;
+    color:#bec6d5;
+    
+
+}.site-hero h1 {
+    font-family: sans-serif, fantasy;
+   font-weight: 850;
+    color:#fff;
+    font-size:2.7rem;
+    
+
+}
+.container,.small-container{
+    padding: 0 1rem;
+    max-width:650px;
+    margin-left: auto;   
+    margin-right:auto;
+    
+
+}
+.small-container{
+    max-width:650px;
+    padding:0 1rem;
+    
+}
+
+.first{
+    color:deepskyblue;
+}
+.second{
+    color:limegreen
+}
+.small-container2{
+    padding:5rem 1rem;  
+    margin-left: auto;
+    margin-right:auto;
+    height:auto;
+    width:auto;
+} .skills-sec h2{
+   width:auto;
+    text-align: center;
+   
+    font-size: 2rem;
+    font-weight: 800;
+    padding:2rem 2rem;  
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+    
+    
+}
+.section-header{
+   text-align:justify;
+    font-size:1.0rem;
+    line-height: 1.3rem;
+    height:inherit;
+    width:100%;
+    padding:1rem 2rem;
+   
+   
+     
+    
+  
+    
+}.section-header h2{
+    
+   text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+ 
+  
+  
+    
+}
+
+.alt-bg{
+    background-image: linear-gradient(to bottom right, floralwhite, ghostwhite);
+    
+    
+}
+ .small-container2 img{
+    display: inline;
+      width:30%;
+    height:auto;
+    float:right;
+    padding:12;
+    transition: all 0.9s ease-in;
+     bottom:inherit;
+    
+    
+}#Aboutme  img:hover{
+    border-radius: 50%;
+    transition: all 0.9s ease-in;
+    
+    
+} #img2{
+    position: relative;
+    width:20%;
+    height:auto;
+    float:left;
+    border-radius: 50%;
+    transition: all 0.9s ease-in;
+    bottom:5px;
+    
+}#Aboutme #img2:hover{
+    border-radius: 25%;
+   
+    
+}
+.small-container2 p::first-letter{
+    text-transform: capitalize;
+    color:limegreen;
+    font-size: 3em;
+    
+    
+}
+
+.skills-sec{
+    text-align: center;
+    max-width:auto;
+    max-height: auto;
+    background-color: white;
+    margin-top:12rem;
+    
+    
+}.skills-sec p{
+    font-size: 1.5rem;
+    
+}
+.container{
+    margin-top: 4rem;
+    width:auto;
+    
+      
+}
+    
+    
+
+
+.cards{
+    padding:1.8rem;
+    background:white;
+    border:5px outset #ebecec;
+    display: inline-block;
+    width:200;
+    margin:15px;
+    box-shadow: 0px 0px 10px 0px grey;
+    transition:all 0.80s ease-out;  
+    
+    
+    
+}
+
+.cards:hover{
+    box-shadow:10px 10px 20px 0px cornflowerblue;
+    
+}
+.myskills{
+   
+     margin-left:-30px;
+    margin-right:auto;
+    width:115%;
+  
+    
+    
+    
+}
+
+
+.cards img{
+    
+    display: inline-block;
+    height:auto;
+    width:80px;
+ 
+    
+    
+
+}
+
+.skills-sec a{
+    cursor: default;
+
+}
+.Contact-me{
+
+  
+}
+
+
