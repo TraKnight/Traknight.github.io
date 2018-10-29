@@ -241,17 +241,14 @@ background:limegreen;
 }
 
 .skills-sec{
-     margin-top: 12 rem;
     text-align: center;
     max-width:auto;
     max-height: auto;
     background-color: white;
-   
+    margin-top:12rem;
     
     
-}
-
-.skills-sec p{
+}.skills-sec p{
     font-size: 1.5rem;
     
 }
