@@ -245,10 +245,12 @@ background:limegreen;
     max-width:auto;
     max-height: auto;
     background-color: white;
-    margin-top:12rem;
+    margin-top: 12rem;
     
     
-}.skills-sec p{
+}
+
+.skills-sec p{
     font-size: 1.5rem;
     
 }
