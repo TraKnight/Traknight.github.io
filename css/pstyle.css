@@ -69,6 +69,7 @@ a{
     background-position: left 100%;
     background-image: linear-gradient(to right, #1e52ca ,#393d );
      transition:all 250ms linear;
+    cursor:default;
   
 }
 
@@ -305,9 +306,15 @@ background:limegreen;
     cursor: default;
 
 }
-.Contact-me{
 
-  
+footer{
+    text-align: center;
+    color:darkgrey;
+
 }
+#footer{
+    background-color:#fff2
+}
+
 
 
