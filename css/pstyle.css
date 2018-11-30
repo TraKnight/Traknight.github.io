@@ -317,7 +317,7 @@ footer{
 }
 
 .LI-profile-badge{
-    position:relative;
+    display:inline-block;
 }
 
 
