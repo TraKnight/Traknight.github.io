@@ -326,7 +326,7 @@ footer{
 
 **************************************MOBILE DEVICE*******************************
 
-@media only screen and (min-width:768x){
+@media only screen and (min-width:768px){
  .site-hero{
      display: none;
 }
