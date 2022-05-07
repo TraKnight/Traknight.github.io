@@ -319,3 +319,10 @@ footer{
 .ft{
     display:inline;
 }
+
+
+
+**************************************MOBILE DEVICE*******************************
+
+@media only screen and (min-width:768x){
+}
